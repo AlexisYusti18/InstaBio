@@ -20,7 +20,7 @@ export default function Hero() {
                     <a href='https://www.instagram.com/preferida.la/'>Facebook</a>
                 </button>
                 <button className='btn'>
-                    <a href='https://www.instagram.com/preferida.la/'>Whatsapp</a>
+                    <a href='https://www.instagram.com/preferida.la/'>Whatsapp2</a>
                 </button>
             </div>
         </div>
