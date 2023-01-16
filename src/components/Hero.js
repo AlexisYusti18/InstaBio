@@ -1,18 +1,18 @@
 import React from 'react'
 import logo from '../assets/logo.jpg'
-import catalogo from '../assets/catalogo.pdf'
+import menu from '../assets/menu.pdf'
 
 export default function Hero() {
   return (
     <div className='ctn-hero'>
         <div className='ctn-title'>
             <img src={logo} alt='logo'/>
-            <h1>LA PREFERIDA</h1>
-            <p>Navarro, Bs As</p>
-            <button className='btn'>
-                <a href={catalogo} Catalogo={' '}>Descargar Catalogo</a>
-            </button>
-            <div className='ctn-social'>
+            <h3>LA PREFERIDA</h3>
+            <p>📍Ubicados en Navarro</p>
+            <div className='ctn-links'>
+                <button className='btn'>
+                    <a href={menu} Catalogo={' '}>Menu</a>
+                </button>
                 <button className='btn'>
                     <a href='https://www.instagram.com/preferida.la/'>Instagram</a>
                 </button>
@@ -20,7 +20,7 @@ export default function Hero() {
                     <a href='https://www.instagram.com/preferida.la/'>Facebook</a>
                 </button>
                 <button className='btn'>
-                    <a href='https://www.instagram.com/preferida.la/'>Whatsapwp</a>
+                    <a href='https://www.instagram.com/preferida.la/'>Whatsapp</a>
                 </button>
             </div>
         </div>
