@@ -11,7 +11,7 @@ export default function Hero() {
             <p>📍Ubicados en Navarro</p>
             <div className='ctn-links'>
                 <button className='btn'>
-                    <a href={menu} Catalogo={' '}>Menu</a>
+                    <a href={menu} catalogo={' '}>Menu</a>
                 </button>
                 <button className='btn'>
                     <a href='https://www.instagram.com/preferida.la/'>Instagram</a>
