@@ -7,14 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500&family=Gentium+Book+Plus&family=Inter&family=Mouse+Memoirs&family=Oswald:wght@500&family=Roboto:wght@300&family=Shadows+Into+Light&family=Uchen&display=swap');
 
 .ctn-hero{
-    background-color:#EAFDFC;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/comida33.jpg');
+    /* background-image: url('../assets/comida33.jpg'); */
     background-position: center;
     background-size: cover;
+    background-color:#A8D1D1;
 }
 .ctn-title{
     display: flex;
@@ -43,15 +43,15 @@ p{
     width: 40vw;
     padding: 10px 10px;
     margin: 10px;
-    background-color: #BFEAF5;
+    background-color: #F1F7B5;
     cursor: pointer;
     border: none;
 }
 a{
-    color: white;
+    color: black;
     font-size: 15px;
     text-decoration: none;
 }
 .btn:hover{
-    background-color:#82AAE3;
+    background-color:#9EA1D4;
 }
