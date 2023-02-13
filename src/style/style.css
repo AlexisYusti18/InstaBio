@@ -11,10 +11,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url('../assets/comida33.jpg'); */
     background-position: center;
     background-size: cover;
-    background-color:#A8D1D1;
+    background-color:#DEFCF9;
+    background: linear-gradient(#85CDFD,#DEFCF9);
+
 }
 .ctn-title{
     display: flex;
@@ -43,12 +44,45 @@ p{
     width: 40vw;
     padding: 10px 10px;
     margin: 10px;
-    background-color: #F1F7B5;
+    background-color:#FAAB78;
+    cursor: pointer;
+    border: none;
+}
+.btn-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    padding: 10px 10px;
+    margin: 10px;
+    background: linear-gradient(#913175,#F2921D);
+    cursor: pointer;
+    border: none;
+}
+.btn-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color:blue;
+    cursor: pointer;
+    border: none;
+}
+.btn-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color:#16FF00;
     cursor: pointer;
     border: none;
 }
 a{
-    color: black;
+    color: white;
     font-size: 15px;
     text-decoration: none;
 }
